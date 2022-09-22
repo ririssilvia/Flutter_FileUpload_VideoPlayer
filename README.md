@@ -1,16 +1,53 @@
-# flutter_fileupload_videoplayer
+# Local Storage dan Video Player
 
 A new Flutter project.
 
-## Getting Started
+## Menambahakan Plugin 
+Upload File
+* image_picker
+```
+flutter pub add image_picker
+```
 
-This project is a starting point for a Flutter application.
+Video Player Plugin
+* video_player
+```
+flutter pub add video_player
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Upload File
+- Ketika di running, Terdapat tampilan tombol button untuk upload gambar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Hasil Upload File](./images/1.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Upload dari gallery
+
+- Setelah di klik button tersebut maka, Menampilkan pop up yang terdapat 2 opsi button yaitu camera dan gallery
+![Hasil Upload File](./images/2.png)
+
+- Ketika di klik pada gallery maka akan ada tampilan upload dari gallery
+![Hasil Upload File](./images/3.png)
+
+- Tampilan ketika setelah di klik upload pada halaman home 
+
+![Hasil Upload File](./images/4.png)
+
+#### Upload dari Camera
+
+* Hasil Tampilan upload dari camera
+![Hasil Upload File](./images/5.png)
+
+* Tampilan hasil upload
+![Hasil Upload File](./images/6.png)
+
+
+### Video Player
+* Ketika pertama kali di running, Menampilkan tampilan video player
+![Hasil Video Player](./images/6.png)
+
+
+* Ketika button pojok bawah di klik play maka Menampilkan tampilan video player yang sudah diputar
+![Hasil Video Player](./images/7.gif)
+
+
+
